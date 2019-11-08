@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Мосин](https://up.htmlacademy.ru/adaptive/18/user/244218).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Беляев](https://up.htmlacademy.ru/adaptive/18/user/691043).
 
 ---
 
