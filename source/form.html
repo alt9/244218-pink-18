@@ -33,6 +33,75 @@
 
   <main class="form-main">
     <h1 class="page-heading">Конкурс на самое безбашенное путешествие с Пинк</h1>
+    <form class="registration" action="https://echo.htmlacademy.ru" method="post">
+      <p class="page-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+      <fieldset class="registration__name">
+        <label class="registration__label form-text" for="surname">Фамилия:</label>
+        <input class="registration__input" type="text" name="surname" id="surname" placeholder="Укажите фамилию *" required>
+        <label class="registration__label form-text" for="firstname">Имя:</label>
+        <input class="registration__input" type="text" name="firstname" id="firstname" placeholder="Укажите ваше имя *" required>
+        <label class="registration__label form-text" for="patronymic">Отчество:</label>
+        <input class="registration__input" type="text" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
+      </fieldset>
+
+      <fieldset class="registration__checkboxes">
+        <legend class="form-text">Ваши безбашенные достижения в путешествии</legend>
+        <ul class="registration__checkboxes-wrapper">
+          <li>
+            <input class="visually-hidden registration__checkbox" type="checkbox" name="selfi" id="selfi" checked>
+            <label class="registration__checkboxes-label" for="selfi">Сделал селфи с акулой</label>
+          </li>
+          <li>
+            <input class="visually-hidden registration__checkbox" type="checkbox" name="beach" id="beach" checked>
+            <label class="registration__checkboxes-label" for="beach">Обгорел на пляже</label>
+          </li>
+          <li>
+            <input class="visually-hidden registration__checkbox" type="checkbox" name="chak" id="chak">
+            <label class="registration__checkboxes-label" for="chak">Видел Чака Норриса</label>
+          </li>
+          <li>
+            <input class="visually-hidden registration__checkbox" type="checkbox" name="buy" id="buy">
+            <label class="registration__checkboxes-label" for="buy">Накупил сувениров</label>
+          </li>
+          <li>
+            <input class="visually-hidden registration__checkbox" type="checkbox" name="defend" id="defend" checked>
+            <label class="registration__checkboxes-label" for="defend">Удержал башню</label>
+          </li>
+          <li>
+            <input class="visually-hidden registration__checkbox" type="checkbox" name="destroy" id="destroy">
+            <label class="registration__checkboxes-label" for="destroy">Разгромил отель</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="registration__contacts">
+        <label class="registration__label form-text" for="phone">Номер телефона</label>
+        <input class="registration__input" type="tel" name="phone" id="phone" placeholder="Номер, пожалуйста">
+        <label class="registration__label form-text" for="email">Адрес почты</label>
+        <input class="registration__input" type="email" name="email" id="email" placeholder="Введите почту *" required>
+      </fieldset>
+
+      <fieldset class="registration__app">
+        <legend class="form-text">С каким приложением путешествовали?</legend>
+        <input class="visually-hidden" type="radio" name="app" id="ios" checked>
+        <label class="registration__checkboxes-label" for="ios">Pink для iOS</label>
+        <input class="visually-hidden" type="radio" name="app" id="android">
+        <label class="registration__checkboxes-label" for="android">Pink на Android</label>
+        <input class="visually-hidden" type="radio" name="app" id="windows">
+        <label class="registration__checkboxes-label" for="windows">Windows Phone</label>
+      </fieldset>
+
+      <fieldset class="registration__comment">
+        <legend class="form-text">Опишите свои эмоции</legend>
+        <textarea class="registration__comment-text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+      </fieldset>
+
+      <div class="registration__button-wrapper">
+        <button class="registration__button" type="submit">Отправить форму</button>
+        <span class="form-text">* </span>
+        <span class="registration__small">— Обязательные поля</span>
+      </div>
+    </form>
   </main>
 
   <footer class="page-footer">
